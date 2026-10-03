@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Kidzora - Learn, Play, Create and Become Amazing! Fun educational activities for children.">
+
+    <title>Kidzora | Learn • Play • Create</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        🚀 <span>Kidzora</span>
+    </div>
+
+    <nav id="navMenu">
+
+        <a href="index.html" class="active">
+            <i class="fa-solid fa-house"></i> Home
+        </a>
+
+        <a href="learn.html">
+            <i class="fa-solid fa-book-open"></i> Learn
+        </a>
+
+        <a href="games.html">
+            <i class="fa-solid fa-gamepad"></i> Games
+        </a>
+
+        <a href="quizzes.html">
+            <i class="fa-solid fa-brain"></i> Quizzes
+        </a>
+
+        <a href="stories.html">
+            <i class="fa-solid fa-book"></i> Stories
+        </a>
+
+        <a href="creativity.html">
+            <i class="fa-solid fa-palette"></i> Create
+        </a>
+
+        <a href="achievements.html">
+            <i class="fa-solid fa-trophy"></i> Achievements
+        </a>
+
+    </nav>
+
+    <div class="nav-actions">
+
+        <button class="icon-btn" onclick="toggleTheme()">
+            🌙
+        </button>
+
+        <a href="dashboard.html" class="profile-btn">
+            👦 Alex
+        </a>
+
+        <button class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="small-badge">
+            ⭐ Welcome to Kidzora
+        </div>
+
+        <h1>
+            Learning Has Never Been
+            <span>This Much Fun!</span>
+        </h1>
+
+        <p>
+            Explore exciting lessons, play brain-boosting games,
+            take fun quizzes and unlock amazing achievements.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="learn.html" class="btn primary">
+                🚀 Start Learning
+            </a>
+
+            <a href="games.html" class="btn secondary">
+                🎮 Play Games
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <strong>500+</strong>
+                <span>Activities</span>
+            </div>
+
+            <div>
+                <strong>100+</strong>
+                <span>Badges</span>
+            </div>
+
+            <div>
+                <strong>50+</strong>
+                <span>Games</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HERO ART -->
+
+    <div class="hero-art">
+
+        <div class="cloud cloud1">☁️</div>
+        <div class="cloud cloud2">☁️</div>
+
+        <div class="planet">🌎</div>
+
+        <div class="rocket">
+            🚀
+        </div>
+
+        <div class="child-character">
+            🧑‍🚀
+        </div>
+
+        <div class="floating-card card-one">
+            ⭐ +50 XP
+        </div>
+
+        <div class="floating-card card-two">
+            🏆 New Badge!
+        </div>
+
+        <div class="floating-card card-three">
+            📚 Learn
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SUBJECTS ================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="section-label">EXPLORE</span>
+
+            <h2>
+                What Do You Want To Learn? 📚
+            </h2>
+
+            <p>
+                Choose your favorite subject and start your adventure.
+            </p>
+        </div>
+
+        <a href="learn.html" class="view-link">
+            View All →
+        </a>
+
+    </div>
+
+
+    <div class="subject-grid">
+
+        <a href="mathematics.html" class="subject-card math">
+
+            <div class="subject-icon">
+                🔢
+            </div>
+
+            <h3>Mathematics</h3>
+
+            <p>
+                Numbers, puzzles, geometry and logical thinking.
+            </p>
+
+            <div class="progress">
+                <div style="width:72%"></div>
+            </div>
+
+            <span>72% Complete</span>
+
+        </a>
+
+
+        <a href="science.html" class="subject-card science">
+
+            <div class="subject-icon">
+                🔬
+            </div>
+
+            <h3>Science</h3>
+
+            <p>
+                Explore space, animals, plants and our amazing world.
+            </p>
+
+            <div class="progress">
+                <div style="width:48%"></div>
+            </div>
+
+            <span>48% Complete</span>
+
+        </a>
+
+
+        <a href="english.html" class="subject-card english">
+
+            <div class="subject-icon">
+                📖
+            </div>
+
+            <h3>English</h3>
+
+            <p>
+                Improve vocabulary, grammar, reading and storytelling.
+            </p>
+
+            <div class="progress">
+                <div style="width:65%"></div>
+            </div>
+
+            <span>65% Complete</span>
+
+        </a>
+
+
+        <a href="coding.html" class="subject-card coding">
+
+            <div class="subject-icon">
+                💻
+            </div>
+
+            <h3>Coding</h3>
+
+            <p>
+                Learn programming and build your first projects.
+            </p>
+
+            <div class="progress">
+                <div style="width:35%"></div>
+            </div>
+
+            <span>35% Complete</span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DAILY CHALLENGE ================= -->
+
+<section class="challenge-section">
+
+    <div class="challenge-content">
+
+        <span class="section-label">
+            TODAY'S CHALLENGE
+        </span>
+
+        <h2>
+            🧠 Can You Solve This?
+        </h2>
+
+        <p class="question">
+            Tom has <strong>12 apples</strong> and gives
+            <strong>5 apples</strong> to his friend.
+            How many apples are left?
+        </p>
+
+        <div class="answers">
+
+            <button onclick="checkAnswer(this, false)">
+                A) 5
+            </button>
+
+            <button onclick="checkAnswer(this, true)">
+                B) 7
+            </button>
+
+            <button onclick="checkAnswer(this, false)">
+                C) 8
+            </button>
+
+            <button onclick="checkAnswer(this, false)">
+                D) 10
+            </button>
+
+        </div>
+
+        <p id="answerMessage"></p>
+
+    </div>
+
+
+    <div class="challenge-art">
+        🍎
+        <div>12 - 5 = ?</div>
+    </div>
+
+</section>
+
+
+<!-- ================= GAMES ================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                FUN ZONE
+            </span>
+
+            <h2>
+                Play & Learn 🎮
+            </h2>
+
+            <p>
+                Learning becomes exciting when you turn it into a game!
+            </p>
+
+        </div>
+
+        <a href="games.html" class="view-link">
+            All Games →
+        </a>
+
+    </div>
+
+
+    <div class="game-grid">
+
+        <a href="games.html" class="game-card">
+
+            <div class="game-image purple">
+                🧠
+            </div>
+
+            <div class="game-info">
+
+                <h3>Memory Match</h3>
+
+                <p>
+                    Find matching cards.
+                </p>
+
+                <div class="game-meta">
+                    ⭐ Easy
+                    <span>+100 XP</span>
+                </div>
+
+            </div>
+
+        </a>
+
+
+        <a href="games.html" class="game-card">
+
+            <div class="game-image orange">
+                🔢
+            </div>
+
+            <div class="game-info">
+
+                <h3>Math Challenge</h3>
+
+                <p>
+                    Solve the numbers!
+                </p>
+
+                <div class="game-meta">
+                    ⭐ Medium
+                    <span>+150 XP</span>
+                </div>
+
+            </div>
+
+        </a>
+
+
+        <a href="games.html" class="game-card">
+
+            <div class="game-image blue">
+                🚀
+            </div>
+
+            <div class="game-info">
+
+                <h3>Space Explorer</h3>
+
+                <p>
+                    Explore the universe.
+                </p>
+
+                <div class="game-meta">
+                    ⭐ Medium
+                    <span>+200 XP</span>
+                </div>
+
+            </div>
+
+        </a>
+
+
+        <a href="games.html" class="game-card">
+
+            <div class="game-image green">
+                🔤
+            </div>
+
+            <div class="game-info">
+
+                <h3>Word Builder</h3>
+
+                <p>
+                    Build new words.
+                </p>
+
+                <div class="game-meta">
+                    ⭐ Easy
+                    <span>+100 XP</span>
+                </div>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STREAK ================= -->
+
+<section class="streak-section">
+
+    <div class="streak-text">
+
+        <span class="section-label">
+            KEEP GOING!
+        </span>
+
+        <h2>
+            🔥 You're On Fire!
+        </h2>
+
+        <p>
+            You've learned for 7 days in a row.
+            Keep your learning streak alive!
+        </p>
+
+        <a href="dashboard.html" class="btn primary">
+            View My Progress →
+        </a>
+
+    </div>
+
+
+    <div class="streak-days">
+
+        <div class="day completed">
+            <span>✓</span>
+            Mon
+        </div>
+
+        <div class="day completed">
+            <span>✓</span>
+            Tue
+        </div>
+
+        <div class="day completed">
+            <span>✓</span>
+            Wed
+        </div>
+
+        <div class="day completed">
+            <span>✓</span>
+            Thu
+        </div>
+
+        <div class="day completed">
+            <span>✓</span>
+            Fri
+        </div>
+
+        <div class="day completed">
+            <span>✓</span>
+            Sat
+        </div>
+
+        <div class="day today">
+            <span>🔥</span>
+            Sun
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="cta-stars">
+        ✨ ⭐ ✨
+    </div>
+
+    <h2>
+        Ready For Your Next Adventure? 🚀
+    </h2>
+
+    <p>
+        Learn something new, earn stars and become a Kidzora Champion!
+    </p>
+
+    <a href="learn.html" class="btn white">
+        Start My Adventure →
+    </a>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <div class="logo">
+                🚀 <span>Kidzora</span>
+            </div>
+
+            <p>
+                Learn today. Discover tomorrow.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="learn.html">Learn</a>
+            <a href="games.html">Games</a>
+            <a href="quizzes.html">Quizzes</a>
+            <a href="stories.html">Stories</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Community</h4>
+
+            <a href="achievements.html">Achievements</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="parents.html">Parents</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Safety</h4>
+
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="#">Safety Center</a>
+            <a href="#">Help</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Kidzora. Made for curious minds. 🌟
+        </p>
+
+        <div>
+            <span>💙</span>
+            <span>⭐</span>
+            <span>🚀</span>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
